@@ -60,7 +60,7 @@ public class EventManager : MonoBehaviour
 
     public void TabVibrate()
     {
-        Handheld.Vibrate();
+        //Handheld.Vibrate();
     }
 
     public void LoadScene(int index)

@@ -192,7 +192,7 @@ public class Coin : MonoBehaviour
 
     private void OnObjectCollided()
     {
-        Handheld.Vibrate();
+        //Handheld.Vibrate();
         em.TriggerLevelFailScreen();
         transform.GetComponent<CircleCollider2D>().enabled = false;
         collided = true;
